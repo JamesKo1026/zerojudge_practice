@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jamesko/CLionProjects/zerojudge/a009
+CMAKE_SOURCE_DIR = /Users/jamesko/CLionProjects/zerojudge/a015
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jamesko/CLionProjects/zerojudge/a009/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/jamesko/CLionProjects/zerojudge/a015/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jamesko/CLionProjects/zerojudge/a009/cmake-build-debug/CMakeFiles /Users/jamesko/CLionProjects/zerojudge/a009/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jamesko/CLionProjects/zerojudge/a015/cmake-build-debug/CMakeFiles /Users/jamesko/CLionProjects/zerojudge/a015/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jamesko/CLionProjects/zerojudge/a009/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jamesko/CLionProjects/zerojudge/a015/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named a007
+# Target rules for targets named a015
 
 # Build rule for target.
-a007: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 a007
-.PHONY : a007
+a015: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 a015
+.PHONY : a015
 
 # fast build rule for target.
-a007/fast:
-	$(MAKE) -f CMakeFiles/a007.dir/build.make CMakeFiles/a007.dir/build
-.PHONY : a007/fast
+a015/fast:
+	$(MAKE) -f CMakeFiles/a015.dir/build.make CMakeFiles/a015.dir/build
+.PHONY : a015/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/a007.dir/build.make CMakeFiles/a007.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/a015.dir/build.make CMakeFiles/a015.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/a007.dir/build.make CMakeFiles/a007.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/a015.dir/build.make CMakeFiles/a015.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/a007.dir/build.make CMakeFiles/a007.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/a015.dir/build.make CMakeFiles/a015.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... a007"
+	@echo "... a015"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
